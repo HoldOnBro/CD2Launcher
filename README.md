@@ -14,7 +14,7 @@
 ## 系统要求
 
 - macOS 12.0 (Monterey) 或更高版本
-- 已安装并运行 [CloudDrive2](https://www.clouddrive2.com/)
+- 已安装并运行 [CloudDrive2](https://www.clouddrive2.com/)（若未安装，CD2Launcher将自动将其安装到`~/Waytech/CloudDrive2`）
 - 需要具有挂载管理权限的 CloudDrive2 API 令牌
 
 ## 安装
