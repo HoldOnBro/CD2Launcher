@@ -155,7 +155,8 @@ class CD2PopoverViewController: NSViewController, NSWindowDelegate {
     }()
     
     private lazy var versionLabel: NSTextField = {
-        let label = NSTextField(labelWithString: Localized.str("v1.0"))
+        let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0"
+        let label = NSTextField(labelWithString: "v\(version)")
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .systemFont(ofSize: 10)
         label.textColor = .tertiaryLabelColor

@@ -55,7 +55,12 @@ class CD2Service: ObservableObject {
         return cd2InstallBasePath
     }
     
-    private let cd2CLIPath = "/Users/xyz/Documents/CD2Launcher/cmd/cd2cli/cd2_mounter"
+    private var cd2CLIPath: String {
+        if let bundlePath = Bundle.main.path(forResource: "cd2_mounter", ofType: nil, inDirectory: "cmd/cd2cli") {
+            return bundlePath
+        }
+        return "/Users/xyz/Documents/CD2Launcher/Resources/cmd/cd2cli/cd2_mounter"
+    }
     
     private let apiTokenKey = "CD2APIToken"
     var apiToken: String? {

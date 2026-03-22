@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E2394BE8AE9BCC4F0F031F4 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC54B5D3A82269843C827BD1 /* Localized.swift */; };
+		0F164385B054DE7E590F3A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C513C0DD28A5053D44BD986 /* Assets.xcassets */; };
+		1ECFAF27B2F5E2E13F03A6D1 /* CD2Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51612A0E6A7025B811FC713C /* CD2Models.swift */; };
+		20B3076CC6BBB9B166D0305A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DADCD8FB12A31520A83418 /* AppDelegate.swift */; };
+		41EEAFC0F6D395F87B06F1BD /* clouddrive.pb.go in Resources */ = {isa = PBXBuildFile; fileRef = F84E0A3A81C6FF76CABCCD9B /* clouddrive.pb.go */; };
+		4233FC2A95E41CAC870F383C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A74E4CDB5F3086710C219E /* main.swift */; };
+		6AEC372A6B2097351E826B36 /* go.mod in Resources */ = {isa = PBXBuildFile; fileRef = 5C8661F5B87F3C2E43C36D4A /* go.mod */; };
+		91653EBB1CA9BB0AC1357012 /* CD2Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B1F306003945E98FB6BFBF /* CD2Service.swift */; };
+		9166155F7427C4EAC97DFA06 /* CD2StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1833A96E3AC3BDD04B806C /* CD2StatusBarController.swift */; };
+		94F37A748A1FEB3E33D15297 /* CD2PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47EAAF547592B9F6BBA870 /* CD2PopoverViewController.swift */; };
+		97F2F4FB40E5E24A2022F704 /* clouddrive_grpc.pb.go in Resources */ = {isa = PBXBuildFile; fileRef = B053B7AB04854B91B4AC5F09 /* clouddrive_grpc.pb.go */; };
+		9AB2AF27FF5FCD1083DBEFCF /* clouddrive.proto in Resources */ = {isa = PBXBuildFile; fileRef = 3BC5DC79206320F052CC83D1 /* clouddrive.proto */; };
+		AC73D16B1F7848AF473E375D /* go.sum in Resources */ = {isa = PBXBuildFile; fileRef = 3B6A0E274C6A54DACBA2E71B /* go.sum */; };
+		F959C131B5F0C7C722726891 /* main.go in Resources */ = {isa = PBXBuildFile; fileRef = B992E30DD2D248F924236D38 /* main.go */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14DADCD8FB12A31520A83418 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C513C0DD28A5053D44BD986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B6A0E274C6A54DACBA2E71B /* go.sum */ = {isa = PBXFileReference; path = go.sum; sourceTree = "<group>"; };
+		3BC5DC79206320F052CC83D1 /* clouddrive.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = clouddrive.proto; sourceTree = "<group>"; };
+		3F3B77C775CA1B1E2BD0DC00 /* cd2_mounter */ = {isa = PBXFileReference; path = cd2_mounter; sourceTree = "<group>"; };
+		51612A0E6A7025B811FC713C /* CD2Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CD2Models.swift; sourceTree = "<group>"; };
+		5C8661F5B87F3C2E43C36D4A /* go.mod */ = {isa = PBXFileReference; path = go.mod; sourceTree = "<group>"; };
+		8C47EAAF547592B9F6BBA870 /* CD2PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CD2PopoverViewController.swift; sourceTree = "<group>"; };
+		A1A558AB7C24BD9F11E56F62 /* CD2Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CD2Launcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1833A96E3AC3BDD04B806C /* CD2StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CD2StatusBarController.swift; sourceTree = "<group>"; };
+		B053B7AB04854B91B4AC5F09 /* clouddrive_grpc.pb.go */ = {isa = PBXFileReference; path = clouddrive_grpc.pb.go; sourceTree = "<group>"; };
+		B0FAD8A03F84526D021337D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B992E30DD2D248F924236D38 /* main.go */ = {isa = PBXFileReference; path = main.go; sourceTree = "<group>"; };
+		BC54B5D3A82269843C827BD1 /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
+		C2A74E4CDB5F3086710C219E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D7B1F306003945E98FB6BFBF /* CD2Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CD2Service.swift; sourceTree = "<group>"; };
+		F84E0A3A81C6FF76CABCCD9B /* clouddrive.pb.go */ = {isa = PBXFileReference; path = clouddrive.pb.go; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0EECBB93E86414D2CF1D6C9E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C513C0DD28A5053D44BD986 /* Assets.xcassets */,
+				B0FAD8A03F84526D021337D3 /* Info.plist */,
+				34B2C9C641DC762FFEAFBA70 /* cmd */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A76BF5BCF571098BB41F413 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				51612A0E6A7025B811FC713C /* CD2Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3370C844FD8AA66694AC345C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC54B5D3A82269843C827BD1 /* Localized.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		348B49E777293811C77B9D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1A558AB7C24BD9F11E56F62 /* CD2Launcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34B2C9C641DC762FFEAFBA70 /* cmd */ = {
+			isa = PBXGroup;
+			children = (
+				D4B68AF05077AAD1272F8B1E /* cd2cli */,
+			);
+			path = cmd;
+			sourceTree = "<group>";
+		};
+		6B79033E92A3DCFBAE60A472 = {
+			isa = PBXGroup;
+			children = (
+				0EECBB93E86414D2CF1D6C9E /* Resources */,
+				91C3E70D533E9085EE6D6A51 /* Sources */,
+				348B49E777293811C77B9D68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91C3E70D533E9085EE6D6A51 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E53581A54BFAC53785A4993F /* App */,
+				2A76BF5BCF571098BB41F413 /* Models */,
+				FA7A0459FAD42D151E3E075E /* Services */,
+				C35569BE1C9334E9096F5175 /* UI */,
+				3370C844FD8AA66694AC345C /* Utils */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		992913DDE15BB71AF71C3685 /* clouddrive */ = {
+			isa = PBXGroup;
+			children = (
+				B053B7AB04854B91B4AC5F09 /* clouddrive_grpc.pb.go */,
+				F84E0A3A81C6FF76CABCCD9B /* clouddrive.pb.go */,
+			);
+			path = clouddrive;
+			sourceTree = "<group>";
+		};
+		C35569BE1C9334E9096F5175 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8C47EAAF547592B9F6BBA870 /* CD2PopoverViewController.swift */,
+				AA1833A96E3AC3BDD04B806C /* CD2StatusBarController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D4B68AF05077AAD1272F8B1E /* cd2cli */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B77C775CA1B1E2BD0DC00 /* cd2_mounter */,
+				3BC5DC79206320F052CC83D1 /* clouddrive.proto */,
+				5C8661F5B87F3C2E43C36D4A /* go.mod */,
+				3B6A0E274C6A54DACBA2E71B /* go.sum */,
+				B992E30DD2D248F924236D38 /* main.go */,
+				992913DDE15BB71AF71C3685 /* clouddrive */,
+			);
+			path = cd2cli;
+			sourceTree = "<group>";
+		};
+		E53581A54BFAC53785A4993F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				14DADCD8FB12A31520A83418 /* AppDelegate.swift */,
+				C2A74E4CDB5F3086710C219E /* main.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FA7A0459FAD42D151E3E075E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D7B1F306003945E98FB6BFBF /* CD2Service.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEDC99E46E20FD8B9988D246 /* CD2Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B94449ED74A97163607BD1 /* Build configuration list for PBXNativeTarget "CD2Launcher" */;
+			buildPhases = (
+				292DCB53EB091343D3150BD6 /* Sources */,
+				F4E70177B8E43C801C4DEFD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CD2Launcher;
+			packageProductDependencies = (
+			);
+			productName = CD2Launcher;
+			productReference = A1A558AB7C24BD9F11E56F62 /* CD2Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1A30BA0068106326873D4D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EEDC99E46E20FD8B9988D246 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C18A6D8610C1B4AD858D9298 /* Build configuration list for PBXProject "CD2Launcher" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6B79033E92A3DCFBAE60A472;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 348B49E777293811C77B9D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEDC99E46E20FD8B9988D246 /* CD2Launcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E70177B8E43C801C4DEFD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F164385B054DE7E590F3A75 /* Assets.xcassets in Resources */,
+				41EEAFC0F6D395F87B06F1BD /* clouddrive.pb.go in Resources */,
+				9AB2AF27FF5FCD1083DBEFCF /* clouddrive.proto in Resources */,
+				97F2F4FB40E5E24A2022F704 /* clouddrive_grpc.pb.go in Resources */,
+				6AEC372A6B2097351E826B36 /* go.mod in Resources */,
+				AC73D16B1F7848AF473E375D /* go.sum in Resources */,
+				F959C131B5F0C7C722726891 /* main.go in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		292DCB53EB091343D3150BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B3076CC6BBB9B166D0305A /* AppDelegate.swift in Sources */,
+				1ECFAF27B2F5E2E13F03A6D1 /* CD2Models.swift in Sources */,
+				94F37A748A1FEB3E33D15297 /* CD2PopoverViewController.swift in Sources */,
+				91653EBB1CA9BB0AC1357012 /* CD2Service.swift in Sources */,
+				9166155F7427C4EAC97DFA06 /* CD2StatusBarController.swift in Sources */,
+				0E2394BE8AE9BCC4F0F031F4 /* Localized.swift in Sources */,
+				4233FC2A95E41CAC870F383C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1BB83F77CE8DC116A342EE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		3CD54EFF02A925CEA10EC043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CD2Launcher.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path../Frameworks";
+				LSUIElement = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cd2launcher.app;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8307F7443903317A24A7CF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CD2Launcher.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path../Frameworks";
+				LSUIElement = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cd2launcher.app;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D5A26267B52A945259B63A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B94449ED74A97163607BD1 /* Build configuration list for PBXNativeTarget "CD2Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8307F7443903317A24A7CF60 /* Debug */,
+				3CD54EFF02A925CEA10EC043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C18A6D8610C1B4AD858D9298 /* Build configuration list for PBXProject "CD2Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BB83F77CE8DC116A342EE47 /* Debug */,
+				D5A26267B52A945259B63A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1A30BA0068106326873D4D1 /* Project object */;
+}

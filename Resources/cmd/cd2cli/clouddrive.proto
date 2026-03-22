@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package clouddrive;
 
+option go_package = ".;clouddrive";
 option csharp_namespace = "CloudDriveSrv.Protos";
 
 import "google/protobuf/timestamp.proto";
