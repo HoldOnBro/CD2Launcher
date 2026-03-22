@@ -702,7 +702,7 @@ class CD2MountRowContainerView: NSView {
         view.translatesAutoresizingMaskIntoConstraints = false
         view.wantsLayer = true
         view.layer?.cornerRadius = 8
-        view.layer?.backgroundColor = NSColor.windowBackgroundColor.cgColor
+        view.layer?.backgroundColor = NSColor.controlBackgroundColor.cgColor
         return view
     }()
     
@@ -747,6 +747,7 @@ class CD2MountRowContainerView: NSView {
         button.isEnabled = true
         button.wantsLayer = true
         button.layer?.cornerRadius = 6
+        button.layer?.backgroundColor = NSColor.secondarySystemFill.cgColor
         button.target = self
         button.action = #selector(actionButtonClicked)
         return button
@@ -826,15 +827,15 @@ class CD2MountRowContainerView: NSView {
             iconView.contentTintColor = .systemBlue
             statusIndicator.layer?.backgroundColor = NSColor.systemGreen.cgColor
             actionButton.image = NSImage(systemSymbolName: "eject.fill", accessibilityDescription: "Unmount")
-            actionButton.contentTintColor = .secondaryLabelColor
-            actionButton.layer?.backgroundColor = NSColor.quaternaryLabelColor.cgColor
+            actionButton.contentTintColor = .labelColor
+            actionButton.layer?.backgroundColor = NSColor.secondarySystemFill.cgColor
         } else {
             iconView.image = NSImage(systemSymbolName: "externaldrive", accessibilityDescription: "Unmounted")
             iconView.contentTintColor = .tertiaryLabelColor
             statusIndicator.layer?.backgroundColor = NSColor.separatorColor.cgColor
             actionButton.image = NSImage(systemSymbolName: "arrow.clockwise", accessibilityDescription: "Mount")
-            actionButton.contentTintColor = .secondaryLabelColor
-            actionButton.layer?.backgroundColor = NSColor.quaternaryLabelColor.cgColor
+            actionButton.contentTintColor = .labelColor
+            actionButton.layer?.backgroundColor = NSColor.secondarySystemFill.cgColor
         }
     }
 }
